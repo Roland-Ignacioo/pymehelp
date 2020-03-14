@@ -1,0 +1,225 @@
+/* ------ Slider ------ */
+
+.about-content {
+    margin-top: 70px;
+    padding: 90px 0px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .about-content {
+        margin-top: 70px;
+    }
+}
+
+.about-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.about-content a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.about-content .lnr {
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.about-content {
+    /* modificar color */
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+
+/* about section */
+
+.about_section {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.about_section h4 {
+    font-size: 22px;
+}
+
+.about_card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about_card {
+    margin: 45px 20px;
+    width: 30%;
+    min-width: 300px;
+    height: 540px;
+}
+
+.about_card .about-detail {
+    padding: 2px 25px 35px 25px;
+    height: 420px;
+    -webkit-box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+    box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+}
+
+.about_card .about_img-box {
+    width: 110px;
+    height: 104px;
+    margin: 50px auto;
+}
+
+.about_card .about-detail p {
+    margin-top: 15px;
+}
+
+.about_card img {
+    width: 100%;
+}
+
+.about_card a {
+    display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid #c4d70f;
+    color: #c4d70f;
+    border-radius: 35px;
+    margin-top: 55px;
+}
+
+.about_card a:hover {
+    background-color: #c4d70f;
+    color: #fefeff;
+}
+
+
+/* end about section */
+
+
+/* portfolio section */
+
+.portfolio_section {
+    text-align: center;
+}
+
+.portfolio_section .row>div {
+    margin: 20px 0;
+}
+
+.portfolio_img-box img {
+    width: 100%;
+    height: max-content;
+}
+
+
+/* end portfolio section */
+
+
+/* team section */
+
+.team_section {
+    text-align: center;
+}
+
+.team_card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #9be604;
+}
+
+.team_card {
+    width: 250px;
+    padding: 0 15px;
+    margin: 35px 0;
+}
+
+.team_card h5 {
+    text-transform: uppercase;
+}
+
+.team_card img {
+    width: 100%;
+}
+
+.team_detail-box {
+    width: 150px;
+    margin: 35px auto 0 auto;
+}
+
+.team_social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_follow h6 {
+    color: #9be604;
+}
+
+
+/* end team section */
+
+
+/* contact section */
+
+.contact_section .row {
+    align-items: center;
+}
+
+.contact_section h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact_section p {
+    color: #787877;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contact_section label {
+    display: flex;
+    flex-direction: column;
+    color: #797879;
+    margin-bottom: 25px;
+}
+
+.contact_section input,
+.contact_section textarea {
+    outline: none;
+    border: 1px solid #c1c1c2;
+    width: 90%;
+    height: 45px;
+    padding: 0 15px;
+    margin-top: 5px;
+}
+
+.contact_section textarea {
+    height: 175px;
+    padding: 5px;
+}
+
+.contact_form-container {
+    padding: 15px 0 15px 0;
+}
+
+.contact_form-container button {
+    border: none;
+    background-color: #a0e711;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.contact_img-box img {
+    width: 100%;
+}
+
+
+/* contact section */
